@@ -1,0 +1,298 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+.rectangle6{
+    width: 360px;
+    height: 800px;
+    border: 1px solid gray;
+}
+.welcome{
+    width: 194px;
+    height: 72px;
+    margin-left: 82px;
+    margin-top: 119px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #000000CC;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.ten{
+    /* width: 173px;
+    height: 18px; */
+    width: 312px;
+    height: 48px;
+    border: 1px solid #d6d6d6;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    margin-left: 24px;
+    margin-top: 43px;
+    outline: none;
+}
+.pass{
+    /* width: 173px;
+    height: 18px; */
+    width: 312px;
+    height: 48px;
+    border: 1px solid #d6d6d6;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    margin-left: 24px;
+    margin-top: 43px;
+}
+.tens{
+    width: 312px;
+    height: 48px;
+    border: 1px solid #d6d6d6;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    background-image:url('eye_password.png');
+    background-repeat:no-repeat;
+    background-position:right;
+    margin-left: 24px;
+    margin-top: 28px;
+    outline: none;
+    position: relative;
+    display: inline-block;
+    margin-right: 9px;
+    margin-top: 7px;
+
+}
+.quenmk{
+    width: 125px;
+    height: 21px;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 117px;
+    margin-top: 12px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #2F89FC;
+    cursor: pointer;
+}
+.quenmk:hover{
+    text-decoration: underline;
+}
+
+
+/* CSS */
+.button-26 {
+  appearance: button;
+  background-color: #1652F0;
+  border: 1px solid #1652F0;
+  border-radius: 5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Graphik,-apple-system,system-ui,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+  font-size: 14px;
+  line-height: 1.15;
+  overflow: visible;
+  padding: 12px 16px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transition: all 80ms ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 312px;
+  height: 48px;
+  margin-left: 24px;
+  margin-top: 20px;
+}
+
+.button-26:disabled {
+  opacity: .5;
+}
+
+.button-26:focus {
+  outline: 0;
+}
+
+.button-26:hover {
+  background-color: #0A46E4;
+  border-color: #0A46E4;
+}
+
+.button-26:active {
+  background-color: #0039D7;
+  border-color: #0039D7;
+}
+.dangki{
+    width: 229px;
+    height: 21px;
+    /* border: 1px solid red; */
+    margin-left: 66px;
+    margin-top: 16px;
+}
+.quenacc{
+    display: flex;
+}
+.quennick{
+    /* width: 168px;
+    height: 21px; */
+    font-size: 14px;
+    font-weight: 600;
+    color: #000000CC;
+    display: flex;
+    align-items: center;
+}
+.dangkis{
+    margin-left: 11px;
+    color: #2F89FC;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+a{
+  text-decoration: none;
+}
+.dangkis:hover{
+    text-decoration: underline;
+}
+.line{
+    width: 331px;
+    height: 1px;
+    margin-left: 23px;
+    margin-top: 28px;
+    display: flex;
+}
+.text{
+    width: 17px;
+    height: 21px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #000000CC 80%;
+    margin-left: 9px;
+    margin-top: -9px;
+}
+.lines{
+    margin-left: 7px;
+}
+
+/* CSS */
+.button-27 {
+    appearance: button;
+    background-color: #1877F2;
+    border: 1px solid #1877F2;
+    /* background-position:left bottom top;  padding-left: 15px; */
+    margin-left: 10px;
+    background-image:url('./facebook\ logo.png');
+    background-repeat:no-repeat;
+    background-position:left;
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Graphik,-apple-system,system-ui,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+    font-size: 14px;
+    line-height: 1.15;
+    overflow: visible;
+    padding: 12px 16px;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    transition: all 80ms ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 312px;
+    height: 48px;
+    margin-left: 24px;
+    margin-top: 20px;
+  }
+  
+  .button-27:disabled {
+    opacity: .5;
+  }
+  
+  .button-27:focus {
+    outline: 0;
+  }
+  
+  .button-27:hover {
+    background-color: #062778;
+    border-color: #062778;
+  }
+  
+  .button-27:active {
+    background-color: #1877F2;
+    border-color: #1877F2;
+  }
+
+  /* CSS */
+  .button-47 {
+    align-items: center;
+    background: #FFFFFF;
+    background-image:url('./google\ logo.png');
+    background-repeat:no-repeat;
+    background-position:left;
+    border: 1px solid #00000066;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    box-sizing: border-box;
+    color: #1A202C;
+    display: inline-flex;
+    font-family: Inter, sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    height: 56px;
+    justify-content: center;
+    line-height: 24px;
+    overflow-wrap: break-word;
+    padding: 24px;
+    text-decoration: none;
+    width: auto;
+    border-radius: 8px;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 312px;
+    height: 48px;
+    margin-left: 23px;
+    margin-top: 24px;
+  }
+  .button-47:disabled {
+    opacity: .5;
+  }
+  
+  .button-47:focus {
+    outline: 0;
+  }
+  
+  .button-47:hover {
+    background-color: #d4ddf3;
+    border-color: #d4ddf3;
+  }
+  
+  .button-47:active {
+    background-color: #8c9299;
+    border-color: #8c9299;
+  }
+
+.end{
+    margin-left: 24px;
+    margin-top: 68px;
+    display: flex;
+  }
+.logo-icon{
+    width: 48px;
+    height: 48px;
+}
+.texter{
+   margin-left: 15px;
+   display: flex;
+   align-items: center;
+   font-size: 12px;
+   font-weight: 600;
+   color: #000000;
+}
